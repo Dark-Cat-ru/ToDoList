@@ -1,0 +1,31 @@
+$textColor: red;
+$background: black;
+$titleSize: 30px;
+$textSize: 20px;
+
+.Container{
+    width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: $background;
+    color: $textColor;
+    border: 5px solid $textColor;
+    & h2{
+        font-size: $titleSize;
+    }
+    & p{
+        font-size: $textSize;
+    }
+    & button{
+        background-color: $background;
+        color: $textColor;
+        border: 2px solid $textColor;
+        padding: 10px;
+        font-size: $textSize;
+        margin-top: 10px;
+    }
+}
+
+.isDone{
+    opacity: 0.5;
+}
